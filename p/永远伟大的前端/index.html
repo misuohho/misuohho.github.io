@@ -289,6 +289,7 @@
       </ol>
     </li>
     <li><a href="#以下为hugoyaml配置文件的解释">以下为hugo.yaml配置文件的解释</a></li>
+    <li><a href="#github自动化部署">Github自动化部署</a></li>
   </ol>
 </nav>
         </div>
@@ -427,7 +428,7 @@
 <pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo new content /content/post/文件夹名（blog内标题名）/文件名.md
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>​	创建文章文件    件夹解释</p>
+</div><p>​	创建文章文件夹解释</p>
 <h3 id="assets">assets
 </h3><p>assets-img存放博客网站头像</p>
 <p>assets-icons存放点击svg图片logo</p>
@@ -450,7 +451,35 @@
 <p>hugo配置文件中可以加入其他小组件（列如音乐播放器，评论功能）</p>
 <p>可以在hugo的官方文档中查看【 <a class="link" href="https://stack.jimmycai.com/guide/"  target="_blank" rel="noopener"
     ><strong><u>Welcome | Stack</u></strong></a> 】</p>
-
+<hr>
+<h2 id="github自动化部署">Github自动化部署
+</h2><p>部署教程搜寻github自动化部署</p>
+<p>以下为建立完成，进行代码更新操作</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git add .
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git commit -m &#34;update&#34;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git push
+</span></span></code></pre></td></tr></table>
+</div>
+</div>
 </section>
 
 
