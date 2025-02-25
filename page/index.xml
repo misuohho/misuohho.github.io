@@ -7,27 +7,68 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Misuohho_blog</copyright>
-        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://misuohho.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>归档</title>
-        <link>https://misuohho.github.io/archives/</link>
-        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        <lastBuildDate>Tue, 25 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://misuohho.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>更新日志</title>
+        <link>https://misuohho.github.io/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</link>
+        <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://misuohho.github.io/archives/</guid>
-        <description></description>
+        <guid>https://misuohho.github.io/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</guid>
+        <description>&lt;hr&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;&lt;strong&gt;更新内容&lt;/strong&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;&lt;strong&gt;备注&lt;/strong&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;&lt;strong&gt;更新时间&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;&lt;strong&gt;增加博客评论功能&lt;/strong&gt;&lt;/em&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;&lt;strong&gt;Giscus评论生效比较慢，需要等待服务器上传，第三方插件不太稳定&lt;/strong&gt;&lt;/em&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;&lt;strong&gt;2025-02-25&lt;/strong&gt;&lt;/em&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;&lt;strong&gt;增加博客更新日志&lt;/strong&gt;&lt;/em&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;&lt;strong&gt;/&lt;/strong&gt;&lt;/em&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;&lt;strong&gt;2025-02-25&lt;/strong&gt;&lt;/em&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;&lt;strong&gt;更新为netlify托管&lt;/strong&gt;&lt;/em&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;&lt;strong&gt;网站相应速度加快加快加加快！域名更容易记住（不过我原本的也不错）&lt;/strong&gt;&lt;/em&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;&lt;strong&gt;2025-02-25&lt;/strong&gt;&lt;/em&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+</description>
         </item>
         <item>
         <title>关于</title>
         <link>https://misuohho.github.io/%E5%85%B3%E4%BA%8E/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
         
         <guid>https://misuohho.github.io/%E5%85%B3%E4%BA%8E/</guid>
         <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
 </description>
         </item>
         <item>
+        <title>归档</title>
+        <link>https://misuohho.github.io/archives/</link>
+        <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://misuohho.github.io/archives/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>绵羊链接</title>
         <link>https://misuohho.github.io/%E7%BB%B5%E7%BE%8A%E9%93%BE%E6%8E%A5/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
         
         <guid>https://misuohho.github.io/%E7%BB%B5%E7%BE%8A%E9%93%BE%E6%8E%A5/</guid>
         <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
