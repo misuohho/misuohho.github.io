@@ -24,6 +24,11 @@
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;&lt;strong&gt;更新字体&lt;/strong&gt;&lt;/em&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;&lt;strong&gt;学习大佬更改字体&lt;/strong&gt;&lt;/em&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;&lt;strong&gt;2025-02-27&lt;/strong&gt;&lt;/em&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;&lt;strong&gt;增加博客评论功能&lt;/strong&gt;&lt;/em&gt;&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;&lt;strong&gt;Giscus评论生效比较慢，需要等待服务器上传，第三方插件不太稳定&lt;/strong&gt;&lt;/em&gt;&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;&lt;strong&gt;2025-02-25&lt;/strong&gt;&lt;/em&gt;&lt;/td&gt;
