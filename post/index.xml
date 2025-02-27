@@ -14,7 +14,10 @@
         
         <guid>https://misuohho.github.io/p/%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96%E5%89%8D%E7%AB%AF/</guid>
         <description>&lt;img src="https://misuohho.github.io/p/%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96%E5%89%8D%E7%AB%AF/page/anli.png" alt="Featured image of post 大数据可视化【前端】" /&gt;&lt;h2 id=&#34;flex布局&#34;&gt;flex布局
-&lt;/h2&gt;&lt;h3 id=&#34;flex-direction属性&#34;&gt;flex-direction属性
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Flex布局，又称弹性布局，是一种CSS布局方式。它提供了一种更灵活的方式来对容器中的项目进行布局、对齐和分配空间，即使容器大小动态变化，也能保证布局的稳定性。Flex布局的知识要点主要分为容器属性和项目属性两部分。&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;flex-direction属性&#34;&gt;flex-direction属性
 &lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -29,7 +32,12 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nx&#34;&gt;flex&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;direction&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;row&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;reverse&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;从右到左对齐&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;/div&gt;&lt;h3 id=&#34;flex&#34;&gt;&lt;strong&gt;flex&lt;/strong&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;flex-grow、flex-shrink和flex-basis的简写属性。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;默认值为0 1 auto&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
@@ -178,13 +186,46 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;flex-wrap&#34;&gt;flex-wrap
+&lt;/div&gt;&lt;h3 id=&#34;flex-shrink&#34;&gt;&lt;strong&gt;flex-shrink&lt;/strong&gt;
 &lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;定义容器内的项目是否可换行。&lt;/li&gt;
-&lt;li&gt;可选值：nowrap（默认值，不换行）、wrap（换行，第一行在上方）、wrap-reverse（换行，第一行在下方）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;定义项目的缩小比例。默认为1，表示当容器空间不足时，项目会按比例缩小。如果设置为0，则项目在空间不足时不会缩小。&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;flex-basis&#34;&gt;&lt;strong&gt;flex-basis&lt;/strong&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;定义项目在分配多余空间之前占据的主轴空间（main size）。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;默认值为auto，即项目的本来大小。也可以设置为具体的长度值。&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;align-self&#34;&gt;&lt;strong&gt;align-self&lt;/strong&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;允许单个项目有与其他项目不一样的对齐方式。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;l 可选值与align-items相同，但此属性仅作用于单个项目，可以覆盖容器的align-items属性。&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;flex-wrap&#34;&gt;flex-wrap
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;定义容器内的项目是否可换行。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;可选值：nowrap（默认值，不换行）、wrap（换行，第一行在上方）、wrap-reverse（换行，第一行在下方）。&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;flex-flow&#34;&gt;&lt;strong&gt;flex-flow&lt;/strong&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;flex-direction和flex-wrap的简写属性&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;grid布局&#34;&gt;Grid布局
-&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Grid布局是CSS中一种强大的二维布局系统，它允许开发者将页面划分为行和列，并指定元素在这些行和列中的位置。以下是对Grid布局知识要点的归纳，分为容器属性和项目属性，并附上示例：&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;display属性&#34;&gt;&lt;strong&gt;display&lt;/strong&gt;属性
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;grid：将元素设置为块级网格容器。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;inline-grid：将元素设置为行内网格容器。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;subgrid：继承父元素的grid布局。&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;grid-template-columnsgrid-template-rows属性&#34;&gt;&lt;strong&gt;grid-template-columns/grid-template-rows属性&lt;/strong&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;定义网格的列数和行数及其大小。可以使用长度单位（如px、em等）、百分比（%）或fr单位（表示剩余空间的比例分配）。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;示例：.grid-container { display: grid; grid-template-columns: 100px 1fr 2fr; grid-template-rows: repeat(3, 100px); }&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;grid-columngrid-row&#34;&gt;&lt;u&gt;&lt;strong&gt;grid-column/grid-row&lt;/strong&gt;&lt;/u&gt;
+&lt;/h4&gt;&lt;p&gt;&lt;em&gt;是grid-column-start和grid-column-end（或grid-row-start和grid-row-end）的简写形式。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;示例：.item { grid-column: 2 / 4; grid-row: 1 / 3; } 或 .item { grid-column: span 2; grid-row: span 1; }（表示跨越2列，1行）&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
@@ -332,7 +373,9 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;img src=&#34;page\C.jpeg&#34; style=&#34;zoom:80%;&#34; /&gt;
 &lt;h3 id=&#34;gap属性&#34;&gt;gap属性
-&lt;/h3&gt;&lt;p&gt;设置网格行和列之间的间距。是grid-column-gap和grid-row-gap的合并简写形式。可以接受两个值：第一个值表示行间距，第二个值表示列间距（如果仅提供一个值，则行间距和列间距相同）。&lt;/p&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;设置网格行和列之间的间距。是grid-column-gap和grid-row-gap的合并简写形式。可以接受两个值：第一个值表示行间距，第二个值表示列间距（如果仅提供一个值，则行间距和列间距相同）。&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;img src=&#34;page\D.jpeg&#34; style=&#34;zoom:80%;&#34; /&gt;
 &lt;p&gt;将行列合并&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -438,6 +481,21 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;img src=&#34;page\E.jpeg&#34; style=&#34;zoom:80%;&#34; /&gt;
+&lt;h3 id=&#34;grid-template-areas属性&#34;&gt;&lt;strong&gt;grid-template-areas属性&lt;/strong&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;通过命名网格区域来布局网格项目。需要在子元素上使用grid-area属性指定其所属区域。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;示例：.grid-container { display: grid; grid-template-columns: repeat(3, 100px); grid-template-rows: repeat(3, 100px); grid-template-areas: &amp;lsquo;a a a&amp;rsquo; &amp;lsquo;b c d&amp;rsquo; &amp;rsquo;e e f&amp;rsquo;; } .item1 { grid-area: a; }&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;grid-column-startgrid-column-endgrid-row-startgrid-row-end&#34;&gt;&lt;u&gt;&lt;em&gt;&lt;strong&gt;grid-column-start/grid-column-end/grid-row-start/grid-row-end&lt;/strong&gt;&lt;/em&gt;&lt;/u&gt;
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;通过指定项目在网格中的起始和结束行列位置来定位项目。&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;示例：.item { grid-column-start: 2; grid-column-end: 4; grid-row-start: 1; grid-row-end: 3; }&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;grid-area&#34;&gt;&lt;strong&gt;grid-area&lt;/strong&gt;
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;直接定义网格区域，可以指定项目的起始行列、跨越行列数或命名区域。&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;示例：.item { grid-area: 2 / 2 / span 2 / span 2; } 或 .item { grid-area: namedArea; }（namedArea为grid-template-areas中定义的命名区域）&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -559,22 +617,25 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;img src=&#34;page/grid-area.jpeg&#34; style=&#34;zoom:80%;&#34; /&gt;
-&lt;h2 id=&#34;项目流程&#34;&gt;项目流程
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;h3 id=&#34;拟定题目&#34;&gt;拟定题目
-&lt;/h3&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;h3 id=&#34;设计框架布局&#34;&gt;设计框架布局
-&lt;/h3&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;h3 id=&#34;寻找数据&#34;&gt;寻找数据
-&lt;/h3&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;h3 id=&#34;自己可以先跑一下后台有数据库&#34;&gt;自己可以先跑一下（后台有数据库）
-&lt;/h3&gt;&lt;/li&gt;
+&lt;h3 id=&#34;grid-auto-flow属性&#34;&gt;&lt;strong&gt;grid-auto-flow属性&lt;/strong&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;设置容器子元素的放置在网格中的顺序。默认值是row，即“先行后列”，也可以设为column，变成“先列后行”&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
+&lt;h3 id=&#34;grid-auto-columnsgrid-auto-rows&#34;&gt;&lt;strong&gt;grid-auto-columns/grid-auto-rows&lt;/strong&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;定义容器中多余网格的列宽、行高&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;place-self&#34;&gt;&lt;strong&gt;place-self&lt;/strong&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;设置某个项目的对齐方式，可以覆盖容器级别的对齐设置。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;示例：.item { place-self: center; }（表示在单元格中居中对齐）&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;项目流程&#34;&gt;项目流程
+&lt;/h2&gt;&lt;h3 id=&#34;拟定题目&#34;&gt;拟定题目
+&lt;/h3&gt;&lt;h3 id=&#34;设计框架布局&#34;&gt;设计框架布局
+&lt;/h3&gt;&lt;h3 id=&#34;寻找数据&#34;&gt;寻找数据
+&lt;/h3&gt;&lt;h3 id=&#34;自己可以先跑一下后台有数据库&#34;&gt;自己可以先跑一下（后台有数据库）
+&lt;/h3&gt;</description>
         </item>
         <item>
         <title>永远伟大的前端</title>
