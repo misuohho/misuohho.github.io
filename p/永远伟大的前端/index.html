@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://misuohho.github.io/p/%E6%B0%B8%E8%BF%9C%E4%BC%9F%E5%A4%A7%E7%9A%84%E5%89%8D%E7%AB%AF/'>
 
-<link rel="stylesheet" href="/scss/style.min.3150ed8ef861aa3c1eaea5c6a7ad33ac4c49115be5091f8a56f17d407b37f4a2.css"><meta property='og:title' content="永远伟大的前端">
+<link rel="stylesheet" href="/scss/style.min.b12d5c2a720a596dd1e03c2d7250efed867eb449cf5bb911b5168e013dcd3f4e.css"><meta property='og:title' content="永远伟大的前端">
 <meta property='og:description' content="hugo + github 创建个人博客">
 <meta property='og:url' content='https://misuohho.github.io/p/%E6%B0%B8%E8%BF%9C%E4%BC%9F%E5%A4%A7%E7%9A%84%E5%89%8D%E7%AB%AF/'>
 <meta property='og:site_name' content='闪电大绵羊&#39;Blog'>
@@ -566,6 +566,18 @@
     </li>
     <li><a href="#以下为hugoyaml配置文件的解释">以下为hugo.yaml配置文件的解释</a></li>
     <li><a href="#github自动化部署">Github自动化部署</a></li>
+    <li><a href="#零碎的修改">零碎的修改</a>
+      <ol>
+        <li><a href="#布局修改">布局修改</a></li>
+        <li><a href="#归档页面两栏">归档页面两栏</a></li>
+        <li><a href="#归档页面卡片缩放">归档页面卡片缩放</a></li>
+        <li><a href="#友情链接三栏">友情链接三栏</a></li>
+        <li><a href="#主页布局间距调整">主页布局间距调整</a></li>
+        <li><a href="#搜索菜单动画">搜索菜单动画</a></li>
+        <li><a href="#归档小图标放大动画">归档小图标放大动画</a></li>
+        <li><a href="#右侧标签放大动画">右侧标签放大动画</a></li>
+      </ol>
+    </li>
   </ol>
 </nav>
         </div>
@@ -650,7 +662,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 2 分钟
+                    阅读时长: 3 分钟
                 </time>
             </div>
         
@@ -753,6 +765,270 @@
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git push
+</span></span></code></pre></td></tr></table>
+</div>
+</div><hr>
+<h2 id="零碎的修改">零碎的修改
+</h2><h3 id="布局修改">布局修改
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="c1">// 在 /assets/scss/grid.scss 中修改 left-sidebar 和 right-sidebar 的描述
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nc">.container</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="na">margin-left</span><span class="o">:</span> <span class="ni">auto</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="na">margin-right</span><span class="o">:</span> <span class="ni">auto</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nc">.left-sidebar</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="na">order</span><span class="o">:</span> <span class="o">-</span><span class="mi">3</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// max-width: var(--left-sidebar-max-width);
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="na">max-width</span><span class="o">:</span> <span class="mi">10</span><span class="kt">%</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nc">.right-sidebar</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="na">order</span><span class="o">:</span> <span class="o">-</span><span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// max-width: var(--right-sidebar-max-width);
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="na">max-width</span><span class="o">:</span> <span class="mi">20</span><span class="kt">%</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">/// Display right sidebar when min-width: lg
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="k">@include</span><span class="nd"> respond</span><span class="p">(</span><span class="n">lg</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="na">display</span><span class="o">:</span> <span class="ni">flex</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// 文章左右部分占显示区域百分比修改成30%
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="归档页面两栏">归档页面两栏
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="k">@media</span> <span class="p">(</span><span class="na">min-width</span><span class="o">:</span> <span class="mi">1024</span><span class="kt">px</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nc">.article-list--compact</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="na">display</span><span class="o">:</span> <span class="ni">grid</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">      <span class="na">grid-template-columns</span><span class="o">:</span> <span class="mi">1</span><span class="kt">fr</span> <span class="mi">1</span><span class="kt">fr</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">      <span class="na">background</span><span class="o">:</span> <span class="ni">none</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">      <span class="na">box-shadow</span><span class="o">:</span> <span class="ni">none</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">      <span class="na">gap</span><span class="o">:</span> <span class="mi">1</span><span class="kt">rem</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">      <span class="nt">article</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="na">background</span><span class="o">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">card-background</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="na">border</span><span class="o">:</span> <span class="ni">none</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="na">box-shadow</span><span class="o">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">shadow-l2</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="na">margin-bottom</span><span class="o">:</span> <span class="mi">8</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="na">border-radius</span><span class="o">:</span> <span class="mi">16</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="归档页面卡片缩放">归档页面卡片缩放
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="nc">.article-list--tile</span> <span class="nt">article</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="na">transition</span><span class="o">:</span> <span class="mf">.6</span><span class="kt">s</span> <span class="ni">ease</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">  <span class="nc">.article-list--tile</span> <span class="nt">article</span><span class="nd">:hover</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="na">transform</span><span class="o">:</span> <span class="nf">scale</span><span class="p">(</span><span class="mi">1</span><span class="mf">.03</span><span class="o">,</span> <span class="mi">1</span><span class="mf">.03</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="友情链接三栏">友情链接三栏
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="k">@media</span> <span class="p">(</span><span class="na">min-width</span><span class="o">:</span> <span class="mi">1024</span><span class="kt">px</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nc">.article-list--compact.links</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="na">display</span><span class="o">:</span> <span class="ni">grid</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">      <span class="na">grid-template-columns</span><span class="o">:</span> <span class="mi">1</span><span class="kt">fr</span> <span class="mi">1</span><span class="kt">fr</span> <span class="mi">1</span><span class="kt">fr</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">      <span class="na">background</span><span class="o">:</span> <span class="ni">none</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">      <span class="na">box-shadow</span><span class="o">:</span> <span class="ni">none</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">      <span class="na">gap</span><span class="o">:</span> <span class="mi">1</span><span class="kt">rem</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">      <span class="nt">article</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="na">background</span><span class="o">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">card-background</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="na">border</span><span class="o">:</span> <span class="ni">none</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="na">box-shadow</span><span class="o">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">shadow-l2</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="na">margin-bottom</span><span class="o">:</span> <span class="mi">8</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="na">border-radius</span><span class="o">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">card-border-radius</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">        <span class="k">&amp;</span><span class="nd">:nth-child</span><span class="o">(</span><span class="nt">odd</span><span class="o">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">          <span class="na">margin-right</span><span class="o">:</span> <span class="mi">8</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">      <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="主页布局间距调整">主页布局间距调整
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="nc">.main-container</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="na">gap</span><span class="o">:</span> <span class="mi">50</span><span class="kt">px</span><span class="p">;</span> <span class="c1">//文章宽度
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  
+</span></span><span class="line"><span class="cl">    <span class="k">@include</span><span class="nd"> respond</span><span class="p">(</span><span class="n">md</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="na">padding</span><span class="o">:</span> <span class="mi">0</span> <span class="mi">30</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">      <span class="na">gap</span><span class="o">:</span> <span class="mi">40</span><span class="kt">px</span><span class="p">;</span> <span class="c1">//中等屏幕时的文章宽度
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">  <span class="nc">.related-contents</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="na">overflow-x</span><span class="o">:</span> <span class="ni">visible</span><span class="p">;</span> <span class="c1">//显示隐藏的图标
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="na">padding-bottom</span><span class="o">:</span> <span class="mi">15</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="cm">/*------------------右侧导航栏--------------*/</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="搜索菜单动画">搜索菜单动画
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="nc">.search-form.widget</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="na">transition</span><span class="o">:</span> <span class="ni">transform</span> <span class="mi">0</span><span class="mf">.6</span><span class="kt">s</span> <span class="ni">ease</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">  <span class="nc">.search-form.widget</span><span class="nd">:hover</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="na">transform</span><span class="o">:</span> <span class="nf">scale</span><span class="p">(</span><span class="mi">1</span><span class="mf">.1</span><span class="o">,</span> <span class="mi">1</span><span class="mf">.1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="归档小图标放大动画">归档小图标放大动画
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="nc">.widget.archives</span> <span class="nc">.widget-archive--list</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="na">transition</span><span class="o">:</span> <span class="ni">transform</span> <span class="mf">.3</span><span class="kt">s</span> <span class="ni">ease</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">  <span class="nc">.widget.archives</span> <span class="nc">.widget-archive--list</span><span class="nd">:hover</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="na">transform</span><span class="o">:</span> <span class="nf">scale</span><span class="p">(</span><span class="mi">1</span><span class="mf">.05</span><span class="o">,</span> <span class="mi">1</span><span class="mf">.05</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="右侧标签放大动画">右侧标签放大动画
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="nc">.tagCloud</span> <span class="nc">.tagCloud-tags</span> <span class="nt">a</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="na">border-radius</span><span class="o">:</span> <span class="mi">10</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="na">font-size</span><span class="o">:</span> <span class="mi">1</span><span class="mf">.4</span><span class="kt">rem</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="na">transition</span><span class="o">:</span> <span class="ni">transform</span> <span class="mf">.3</span><span class="kt">s</span> <span class="ni">ease</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">  <span class="nc">.tagCloud</span> <span class="nc">.tagCloud-tags</span> <span class="nt">a</span><span class="nd">:hover</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="na">transform</span><span class="o">:</span> <span class="nf">scale</span><span class="p">(</span><span class="mi">1</span><span class="mf">.1</span><span class="o">,</span> <span class="mi">1</span><span class="mf">.1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div>
