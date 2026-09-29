@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>学习 on 闪电大绵羊&#39;Blog</title>
-        <link>https://misuohho.github.io/categories/%E5%AD%A6%E4%B9%A0/</link>
+        <link>http://localhost:1313/categories/%E5%AD%A6%E4%B9%A0/</link>
         <description>Recent content in 学习 on 闪电大绵羊&#39;Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Misuohho_blog</copyright>
-        <lastBuildDate>Tue, 22 Apr 2025 22:47:18 +0800</lastBuildDate><atom:link href="https://misuohho.github.io/categories/%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 22 Apr 2025 22:47:18 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Crawler</title>
-        <link>https://misuohho.github.io/p/crawler/</link>
+        <link>http://localhost:1313/p/crawler/</link>
         <pubDate>Tue, 22 Apr 2025 22:47:18 +0800</pubDate>
         
-        <guid>https://misuohho.github.io/p/crawler/</guid>
-        <description>&lt;img src="https://misuohho.github.io/p/crawler/crawler.png" alt="Featured image of post Crawler" /&gt;&lt;p&gt;创建制作爬虫&lt;/p&gt;
+        <guid>http://localhost:1313/p/crawler/</guid>
+        <description>&lt;img src="http://localhost:1313/p/crawler/crawler.png" alt="Featured image of post Crawler" /&gt;&lt;p&gt;创建制作爬虫&lt;/p&gt;
 &lt;p&gt;数据清洗&lt;/p&gt;
 &lt;p&gt;使用pycharm自带urllib库进行爬虫&lt;/p&gt;
 &lt;p&gt;使用requests库进行爬虫&lt;/p&gt;
@@ -36,11 +36,11 @@
         </item>
         <item>
         <title>永远伟大的前端</title>
-        <link>https://misuohho.github.io/p/%E6%B0%B8%E8%BF%9C%E4%BC%9F%E5%A4%A7%E7%9A%84%E5%89%8D%E7%AB%AF/</link>
+        <link>http://localhost:1313/p/%E6%B0%B8%E8%BF%9C%E4%BC%9F%E5%A4%A7%E7%9A%84%E5%89%8D%E7%AB%AF/</link>
         <pubDate>Fri, 21 Feb 2025 22:11:30 +0800</pubDate>
         
-        <guid>https://misuohho.github.io/p/%E6%B0%B8%E8%BF%9C%E4%BC%9F%E5%A4%A7%E7%9A%84%E5%89%8D%E7%AB%AF/</guid>
-        <description>&lt;img src="https://misuohho.github.io/p/%E6%B0%B8%E8%BF%9C%E4%BC%9F%E5%A4%A7%E7%9A%84%E5%89%8D%E7%AB%AF/girl.png" alt="Featured image of post 永远伟大的前端" /&gt;&lt;h1 id=&#34;hugo--github-个人博客的建设&#34;&gt;Hugo ＋ GitHub 个人博客的建设
+        <guid>http://localhost:1313/p/%E6%B0%B8%E8%BF%9C%E4%BC%9F%E5%A4%A7%E7%9A%84%E5%89%8D%E7%AB%AF/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E6%B0%B8%E8%BF%9C%E4%BC%9F%E5%A4%A7%E7%9A%84%E5%89%8D%E7%AB%AF/girl.png" alt="Featured image of post 永远伟大的前端" /&gt;&lt;h1 id=&#34;hugo--github-个人博客的建设&#34;&gt;Hugo ＋ GitHub 个人博客的建设
 &lt;/h1&gt;&lt;p&gt;​	参考B站视频学习（&lt;u&gt;BV1bovfeaEtQ&lt;/u&gt;）&lt;/p&gt;
 &lt;p&gt;​	hugo下载：前往hugo官网【  &lt;u&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;The world’s fastest framework for building websites&lt;/a&gt;&lt;/strong&gt;&lt;/u&gt;  】&lt;/p&gt;
