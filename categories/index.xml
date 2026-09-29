@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Categories on 闪电大绵羊&#39;Blog</title>
+        <link>https://misuohho.github.io/categories/</link>
+        <description>Recent content in Categories on 闪电大绵羊&#39;Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Misuohho_blog</copyright>
+        <lastBuildDate>Tue, 22 Apr 2025 22:47:18 +0800</lastBuildDate><atom:link href="https://misuohho.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>编程</title>
+        <link>https://misuohho.github.io/categories/%E7%BC%96%E7%A8%8B/</link>
+        <pubDate>Tue, 22 Apr 2025 22:47:18 +0800</pubDate>
+        
+        <guid>https://misuohho.github.io/categories/%E7%BC%96%E7%A8%8B/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>学习</title>
+        <link>https://misuohho.github.io/categories/%E5%AD%A6%E4%B9%A0/</link>
+        <pubDate>Tue, 22 Apr 2025 22:47:18 +0800</pubDate>
+        
+        <guid>https://misuohho.github.io/categories/%E5%AD%A6%E4%B9%A0/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Test</title>
+        <link>https://misuohho.github.io/categories/test/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://misuohho.github.io/categories/test/</guid>
+        <description>&lt;img src="https://misuohho.github.io/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Test" /&gt;</description>
+        </item>
+        
+    </channel>
+</rss>
